@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#box{
+    /* background-color: black; */
+    background-image: linear-gradient(to right, red, yellow, green);
+    color: black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    &:hover{
+        background-image: linear-gradient(to right, yellow, blue, red);
+        color: white;
+        transform: scale(1.1);
+        transition: all 3s;
+    }
+}
